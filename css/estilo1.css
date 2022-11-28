@@ -1,0 +1,173 @@
+body{
+    background-image: url(../img/dukilit.jpg);
+    font-family: 'Didot';
+}
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 6.25em;
+    transition: 0.5s;
+}
+.logo{
+    height: 60%;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+}
+.menu-item{
+    margin: 0 1rem;
+    font-weight: 37.5em;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+    padding: 0.62em 1.5em;
+    border-radius: 1.87em;
+}
+.cta{
+    padding: 0.625em 1.5em;
+    border-radius: 1.87em;
+    background-color: var(--main-color);
+    color: #f2f2f2;
+    font-weight: 37.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cta:hover{
+    color: #f2f2f2;
+    background-color: #000407;
+}
+.menu-item:hover{
+    color: #f2f2f2;
+    background-color: #000407;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:#0d5c06c9;
+}
+.textos-header h2{
+    font-size: 30px;
+    color:#0d5c06c9;
+}
+.textos-header p{
+    color: #fff;
+}
+.textos-header h3{
+    font-size: 30px;
+    font-weight: 300;
+    color:#0d5c06c9;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-sobre-nosotros h3{
+    color:#9708bb;
+}
+.contenedor-sobre-nosotros p{
+    color:#fff;
+}
+.contenedor-3 h3{
+    color:#9708bb;
+}
+.contenedor-3 p{
+    color:#fff;
+}
+.contenedor-musical h2{
+    font-size: 50px;
+    font-weight: 300;
+    color:#0d5c06c9;
+}
+.contenedor-musical h3{
+    color:#9708bb;
+}
+.contenedor-musical p{
+    color:#fff;
+}
+.contenedor-4 h3{
+    color:#9708bb;
+}
+.contenedor-4 p{
+    color:#fff;
+}
+.contenedor-5 h3{
+    color:#9708bb;
+}
+.contenedor-5 p{
+    color:#fff;
+}
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+    }
+    /* Footer */
+
+
+    .titulo-final{
+        font-size: 20px;
+    }
+}
